@@ -3,6 +3,8 @@ The final project of ROB-GY-6003 Foundation of Robotic at NYU Tandon School
 ## Introduction
 The code is a simulation of six degrees of freedom robot arm. The specific robot shows as follows:
 
+![image](https://github.com/jinrui-rey/Robot-Simulations/blob/main/RobotExample.jpg)
+
 ## functionality
 - Forward Kinematics: The code includes a function that takes the joint angles as the input and computes the position of each joint and the end effector position as the output.
 - Inverse Kinematics: The code includes a function that takes the end effector position and orientation as an input and computes the joint angles as an output. If this is not possible, the function communicate this to the user somehow (e.g., output NaN as the output while also showing an error message “Desired end effector position and orientation out of workspace of robot.”
